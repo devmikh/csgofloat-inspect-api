@@ -1,0 +1,34 @@
+{
+  "name": "csgofloat",
+  "version": "4.0.0",
+  "description": "Source Code that Powers the CSGOFloat API",
+  "author": "Step7750",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Step7750/CSGOFloat.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "command-line-args": "^5.1.1",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "globaloffensive": "^2.1.0",
+    "long": "^3.2.0",
+    "mongodb": "^2.2.36",
+    "pg": "^8.10.0",
+    "simple-vdf": "^1.1.1",
+    "socket.io": "^2.4.0",
+    "steam-totp": "^2.1.2",
+    "steam-user": "^4.28.0",
+    "winston": "^2.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.7.1"
+  }
+}
